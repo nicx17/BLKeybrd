@@ -4,15 +4,15 @@
 #include <ESP32Encoder.h>
 
 // Pin definitions
-#define CLK 18           // Encoder CLK pin
-#define DT 19            // Encoder DT pin
-#define BTN_PLAY 25      // Button for Play/Pause
-#define BTN_NEXT 26      // Button for Next Track
-#define BTN_PREV 33      // Button for Previous Track
-#define BTN_MUTE 32      // Button for Previous Track
-#define BTN_SHORTCUT1 27 // Button for Shortcut 1 (e.g., Ctrl+C)
-#define BTN_SHORTCUT2 14 // Button for Shortcut 2 (e.g., Ctrl+V)
-#define BTN_SHORTCUT3 13 // Button for Shortcut 3 (e.g., Ctrl+V)
+#define CLK 32           // Encoder CLK pin
+#define DT 14            // Encoder DT pin
+#define BTN_PLAY 16      // Button for Play/Pause
+#define BTN_NEXT 4      // Button for Next Track
+#define BTN_PREV 17      // Button for Previous Track
+#define BTN_MUTE 5      // Button for Previous Track
+#define BTN_SHORTCUT1 33 // Button for Shortcut 1 (e.g., Ctrl+C)
+#define BTN_SHORTCUT2 25 // Button for Shortcut 2 (e.g., Ctrl+V)
+#define BTN_SHORTCUT3 27 // Button for Shortcut 3 (e.g., Ctrl+V)
 
 ESP32Encoder encoder;
 BleKeyboard bleKeyboard;
